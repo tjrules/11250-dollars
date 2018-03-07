@@ -1,0 +1,41 @@
+{
+  "title": "SQL Select Lab",
+  "name": "sql-select-lab",
+  "version": "1.0.0",
+  "description": "The lab associated with the sql-intro-lesson.",
+  "main": "index.js",
+  "type": "lab",
+  "duration": "1:30",
+  "competencies": "databases",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sql",
+    "lab",
+    "carmen sandiego"
+  ],
+  "homepage": "https://git.generalassemb.ly/wdi-nyc-kestrel/sql-select-lab",
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.generalassemb.ly/wdi-nyc-kestrel/sql-select-lab"
+  },
+  "bugs": {
+    "url" : "https://git.generalassemb.ly/wdi-nyc-kestrel/sql-select-lab/issues"
+  },
+  "author": "Micah Rich",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Micah Rich",
+      "city": "LA"
+    },
+    {
+      "name": "Roy Vanegas",
+      "city": "NYC",
+      "email": "roy.vanegas@ga.co",
+      "url": "http://roy.vanegas.org/portfolio"
+    }
+  ],
+  "package validator": "http://package-json-validator.com"
+}

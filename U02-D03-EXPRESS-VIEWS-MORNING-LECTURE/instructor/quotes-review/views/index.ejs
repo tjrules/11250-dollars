@@ -1,0 +1,12 @@
+<% include ./partials/head.ejs %>
+<body>
+  <h1><%= title %> </h1>
+  <% data.forEach((d,i) => { %>
+    <p><%= JSON.stringify(d.author) %></p>
+  <% }) %>
+ 
+<!--    <% for(var i = 0; i < data.length; i++) { %>
+      <p><%= JSON.stringify(data[i].author) %></p>
+    <%  } // for loop %> -->
+</body>
+</html>

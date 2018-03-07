@@ -1,0 +1,4 @@
+All courses
+
+<!-- <%= @courses.map { |c| c.name }.join(', ') %> -->
+<%= @courses.map(&:name).join(', ') %>

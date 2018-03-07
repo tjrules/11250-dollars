@@ -1,0 +1,15 @@
+.TodoList {
+  list-style-type: none;
+}
+
+.TodoListItem {
+  margin-bottom: 10px;
+}
+
+.TodoListItem > span {
+  margin: 0px 10px;
+}
+
+.NewTodoForm {
+  margin-bottom: 20px;
+}

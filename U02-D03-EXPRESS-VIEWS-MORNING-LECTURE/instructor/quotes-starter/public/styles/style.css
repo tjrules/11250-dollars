@@ -1,0 +1,18 @@
+h1 {
+  color:blue;
+}
+
+header{
+  background-color: lightblue;
+  overflow:hidden;
+}
+h1 {
+  float:left;
+}
+ul {
+  float:right;
+  list-style:none;
+}
+li {
+  display:inline-block;
+}

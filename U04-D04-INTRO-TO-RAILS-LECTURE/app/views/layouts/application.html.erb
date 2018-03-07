@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>School</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <%= link_to '/' do %>
+      <%= image_tag "https://seeklogo.com/images/G/general-assembly-logo-D5C634F07A-seeklogo.com.png", class: 'ga-logo' %>
+    <% end %>
+
+    <br><br>
+
+    <%= yield %>
+
+  </body>
+</html>

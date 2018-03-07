@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+ <% include ./partials/header %>
+  <h1><%= title %></h1>
+  <h2><%= data %></h2>
+</body>
+</html>
+
+
+<!-- app.get('/', (req,res) => {
+  // if there is no index.html file in public then
+  // res.render will run
+  // lets render an ejs template
+  res.render('index.ejs', {
+    data:'thank you for understanding templates...:}'
+  })
+}) -->

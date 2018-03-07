@@ -1,0 +1,49 @@
+module.exports = {
+  "puns": [
+    {
+    "id": "1",
+    "keyword": ["react", "native", "redux", "component", "state", "props"],
+    "pun": "I just had an allergic REACTion to what you just said."
+    },
+    {
+      "id": "2",
+      "keyword": ["jason", "json", "jase"],
+      "pun": "I'm not going to tell you how to live your best life."
+    },
+    {
+      "id": "3",
+      "keyword": ["script", "javascript", "java", "jquery"],
+      "pun": "Funny,it's almost like these lines are (java)scripted"
+    },
+     {
+      "id": "4",
+      "keyword": ["object", "oop", "key", "value"],
+      "pun": "If the value is 'my heart', the key is you"
+    },
+     {
+      "id": "5",
+      "keyword": ["express", "node", "nodejs", "backend", "server"],
+      "pun": "Sometimes, I say the wrong thing. You may call it a bad EXPRESSion"
+    },
+     {
+      "id": "6",
+      "keyword": ["rails", "ruby", "class", "method"],
+      "pun": "Ruby tends to deRail the most well-thought-out plans"
+    },
+     {
+      "id": "7",
+      "keyword": ["words", "es6", "babel", "word"],
+      "pun": "Would you stop babel-ing on? It's getting annoying."
+    },
+     {
+      "id": "8",
+      "keyword": ["narwhal", "turtle", "kestrel", "wdi", "cohort"],
+      "pun": "In general, assembly is normally required."
+    },
+    {
+      "id": "9",
+      "keyword": ["same", "similar", "alike", "related"],
+      "pun": "same."
+    }
+  ]
+}

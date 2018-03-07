@@ -1,0 +1,11 @@
+<h1><%= @cat.name %></h1>
+
+<h2>Breed: <%= @cat.breed %></h2>
+
+<%= link_to "All Cats", cats_path %>
+<%= link_to "Edit Cat",edit_cat_path(@cat) %>
+
+
+<%= form_for @cat, html: {method: "delete"} do |f|%>
+  <%= f.submit "Delete #{@cat.name}?"%>
+<% end %>
